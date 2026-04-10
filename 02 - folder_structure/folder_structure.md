@@ -61,21 +61,3 @@ These are like **shortcuts** pointing to actual folders.
 | `/data` | Custom mount (example: Windows shared folder) |
 
 👉 Used to connect external storage to Linux.
-
-## 🎯 Simple Summary
-
-- `/` → Root of everything  
-- `/home` → User files  
-- `/etc` → Configuration  
-- `/var` → Logs & changing data  
-- `/usr` → Applications  
-- `/tmp` → Temporary files  
-- `/dev`, `/proc`, `/sys` → System-related  
-
-💡 **Easy Way to Remember:**
-- System files → `/etc`, `/usr`, `/var`  
-- User files → `/home`  
-- Temporary → `/tmp`  
-- Hardware & system → `/dev`, `/proc`, `/sys`  
-
-🚀 Now you understand how Linux organizes files and folders!
