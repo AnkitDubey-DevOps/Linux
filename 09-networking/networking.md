@@ -1,4 +1,11 @@
+# Networking Commands
 
+1. **`ping google.com`** – Checks connectivity to a remote server.
+2. **`ifconfig`** – Displays network interfaces (deprecated, use `ip`).
+3. **`ip a`** – Shows IP addresses of network interfaces.
+4. **`netstat -tulnp`** – Displays open network connections.
+5. **`curl https://example.com`** – Fetches a webpage's content.
+6. **`wget https://example.com/file.zip`** – Downloads a file from the internet.
 7. **`ss -tulnp`** – Displays socket statistics (modern alternative to netstat)
 8. **`traceroute google.com`** – Shows the path packets take to a destination
 9. **`nslookup example.com`** – Queries DNS to get domain IP
@@ -18,7 +25,6 @@
 23. **`tcpdump -i eth0`** – Captures network packets
 24. **`curl -I https://example.com`** – Fetch HTTP headers only
 25. **`wget -c https://example.com/file.zip`** – Resume interrupted download
-26. **`ping google.com`** – Checks connectivity to a remote server.
 
 ## Additional Networking Concepts
 
