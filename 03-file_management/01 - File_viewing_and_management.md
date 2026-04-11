@@ -34,22 +34,31 @@
 27. **`echo 'Hello' > file.txt`** – Overwrite file content
 28. **`echo 'Hello' >> file.txt`** – Append to file
 
-## File Information
+## File Information and Counting
 29. **`stat file.txt`** – Show detailed file info
 30. **`file file.txt`** – Show file type
 31. **`du -sh folder`** – Show folder size
 32. **`df -h`** – Show disk usage
+33. **`wc file.txt`** – Count lines, words, and characters
+34. **`wc -l file.txt`** – Count number of lines
+35. **`wc -w file.txt`** – Count number of words
+
+## Input and Output (stdin, stdout)
+36. **`command > file.txt`** – Redirect output (stdout) to file (overwrite)
+37. **`command >> file.txt`** – Append output to file
+38. **`command < file.txt`** – Take input (stdin) from file
+39. **`command1 | command2`** – Pipe output of one command to another
 
 ## Permissions and Ownership
-33. **`chmod 755 file.txt`** – Change file permissions
-34. **`chown user:user file.txt`** – Change file owner
+40. **`chmod 755 file.txt`** – Change file permissions
+41. **`chown user:user file.txt`** – Change file owner
 
 ## Compression and Archive
-35. **`tar -cvf archive.tar folder/`** – Create archive
-36. **`tar -xvf archive.tar`** – Extract archive
-37. **`gzip file.txt`** – Compress file
-38. **`gunzip file.txt.gz`** – Decompress file
+42. **`tar -cvf archive.tar folder/`** – Create archive
+43. **`tar -xvf archive.tar`** – Extract archive
+44. **`gzip file.txt`** – Compress file
+45. **`gunzip file.txt.gz`** – Decompress file
 
 ## Search and Filter
-39. **`grep "text" file.txt`** – Search text in file
-40. **`grep -r "text" .`** – Search text in directory
+46. **`grep "text" file.txt`** – Search text in file
+47. **`grep -r "text" .`** – Search text in directory
